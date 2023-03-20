@@ -56,6 +56,41 @@ h1,h2 {
     border-bottom: 1px solid #323232;
 }
 
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width:100%;
+    overflow: hidden;
+
+}
+
+#hero-image {
+    height: 600px;
+    width:100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+
+/* anamates zoom effect on loading page */
+
+animation-name: hero-zoom;
+animation-duration: 5s;
+animation-fill-mode: forward;
+}
+
+
+
+
+
+
+/*creates level of zoom for hero-image*/
+@keyframes hero-zoom {
+    from{
+        transform: scale(1);
+    }
+        to{
+            transform: scale(1.1);
+        }
+    }
 
 
 
