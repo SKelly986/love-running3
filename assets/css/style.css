@@ -56,13 +56,18 @@ h1,h2 {
     border-bottom: 1px solid #323232;
 }
 
-/* hero image */
+/* hero image and cover text */
 
 #hero-outer {
     height: 600px;
     width:100%;
     overflow: hidden;
 
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -77,11 +82,6 @@ animation-duration: 5s;
 animation-fill-mode: forward;
 }
 
-
-
-
-
-
 /*creates level of zoom for hero-image*/
 @keyframes hero-zoom {
     from{
@@ -91,6 +91,28 @@ animation-fill-mode: forward;
             transform: scale(1.1);
         }
     }
+    #cover-text {
+font-size: 130%;
+font-family: oswald, sans-serif ;
+text-transform: uppercase;
+letter-spacing: 4px;
+
+width: 300px;
+height: 200px;
+
+padding-top: 40px;
+padding-left: 10px;
+
+background-color: rgba(241, 109, 107, .7);
+
+bottom: 30px;
+right: 150px;
+
+position: absolute;
+    }
+
+
+
 
 
 
