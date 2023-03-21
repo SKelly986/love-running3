@@ -123,14 +123,13 @@ position: absolute;
         padding-top: 30px;
         width: 33%;
         float: left;
-        
+       
     }
 #right-about 
 {
     padding-top: 30px;
     width: 33%;
     float: right;
-  
 }
 
 #center-about{
@@ -152,6 +151,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+   
 }
 .right-about-heading {
     width: 60%;
@@ -159,6 +159,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+  
 }
 .right-about-headings h2 {
 text-align: right;
