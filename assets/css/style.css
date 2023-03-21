@@ -166,6 +166,9 @@ text-align: right;
 .right-about-headings p {
     text-align: right;
 }
+#welcome {
+    text-align: center;
+}
 
 
 
