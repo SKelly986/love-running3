@@ -209,7 +209,10 @@ border-radius: 50%;
     text-align: centre;
     border: 2px solid white;
     box-sizing: border-box;
+}
 
+#times h2 {
+    color: #fafafa;
 }
 
 
