@@ -112,7 +112,7 @@ right: 150px;
 position: absolute;
     }
 
-    /* club sthos */
+    /* club ethos */
 
     #club-ethos{
         height: 600px;
@@ -135,9 +135,7 @@ position: absolute;
 #center-about{
     width: 33%;
     margin: 0 auto;
-    
-   
-}
+    }
 
 hr {
     border-top: 1px solid #3a3a3a;
@@ -215,21 +213,26 @@ border-radius: 50%;
     color: #fafafa;
 }
 
+/* footer */
 
-/* footer*/
 footer {
     height: 150px;
 }
 
-.social-network {
+.social-networks {
     text-align: center;
 }
 
+.social-networks li {
+    display: inline;
+}
 
-
-
-
-
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 
 
