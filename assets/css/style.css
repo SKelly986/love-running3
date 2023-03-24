@@ -274,10 +274,18 @@ padding: 0;
 }
 hr{
     display: none;
+   }
 }
 
-
-}
+/* for medium screen size from 950px wide and down */
+@media screen and (max-width:950px) {
+    #menu {
+        clear: left;
+        float: left;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+} 
 
     
 
